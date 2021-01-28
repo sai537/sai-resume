@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>sample title</title>
+<link rel="icon"  href="profile.svg">
+<style>
+      .parent{ 
+      	align-items: center;
+		 display: flex;
+		 flex-direction: row;
+		 justify-content: center;
+		 font-size: 20px;
+		 word-wrap: 22;
+		 flex-wrap: wrap;
+		 table-layout: 45;
+
+
+		 
+	}
+	.child{
+		 margin: 3%;
+		 text-align: center;
+		padding: 2%;	
+		width: 20%;
+		margin:1%;
+		justify-content: space-between;
+		 border: 3px red line;
+		 color: black;
+		 font-weight: 20px;
+		 border-radius: 10px;
+		 box-shadow:3px 3px 3px green;
+		 @media only screen and (min-width: 481px) and (max-width: 767px){
+		.child{
+			width: 40%;
+			font-size: 25px;
+		}box-shadow: 0px 8px 8px -8px orange;
+
+		}
+
+	}
+	 @media only screen and (min-width: 768px) and (max-width: 1024px){
+		.child{
+			width: 40%;
+			font-size: 25px;
+			box-width: 0px 0px 0px rgb(170,46,46);
+		}shadow: 0px 0px 0px -8px orange;
+
+		}
+
+	}
+</style> 
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<p>
+		<!--	
+ 1.basic selectors
+	a.id
+	b.class
+	c.element
+	d.universal
+ 2.Relational selectors
+	a.descendant combiner(>)
+	b.child combiner ()
+	c.Adjacent sibling selectors(+)
+	d.general sibiling seklectors(-)
+ 3.pseudo classes -->
+	</p>
+	<section class="parent">
+		<article class="child"> Rajahmundry</article>
+		<article class="child"> Kovvur</article>
+		<article class="child">Nidadhavole</article>
+		<article class="child"> Chagallu</article>
+	</section>
+
+</body>
+</html>
